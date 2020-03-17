@@ -1,0 +1,23 @@
+
+Buen dia alumnos y alumnas, les pido sigan los siguientes pasos para próximas entregas.
+
+1.- Instalar Git (En windows usa Git Bash, en Linux/Mac se puede desde la terminal)
+2.- Crear una carpeta "Repositorio"
+2.- En el Bash/Terminal ingresar los siguientes comandos:
+	
+	$ cd /D/Respositorio (Para acceder a la carpeta anteriormente creada, puede cambiar según donde la creaste)
+	$ git clone https://github.com/akte182/ProgramacionWeb.git
+	$ cd ProgramacionWeb
+	$ git status (Deberia decir "Your branch is up to date with 'origin/master'.")
+	$ git checkout -b alumno/*insert_your_name_here* (Ejemplo: alumno/Perez_Arreola_Cesar_Alejandro)
+
+3.- Crear un archivo en la ruta "...Repositorio/ProgramacionWeb/*insert_your_name_here*/Prueba.txt" agregar el contenido "Lo he logrado" y guardarlo.
+4.- Subir el archivo al respositorio con los siguientes comandos:
+
+	$ git status (Deberías ver el nombre del archivo creado en color rojo)
+	$ git add *insert_your_name_here*/Prueba.txt
+	$ git status (El color del archivo cambia a verde)
+	$ git commit -m "PRUEBA TERMINADA"
+	$ git push origin alumno/*insert_your_name_here*
+
+5.- Entrar al enlace "https://github.com/akte182/ProgramacionWeb/branches" y verifica que tu nombre aparezca en la lista!
